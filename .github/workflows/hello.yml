@@ -1,0 +1,15 @@
+name: learning github-actions-flow
+
+on:
+  push:
+
+jobs:
+  committing-code:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: getcode
+        uses: actions/checkout@v4
+
+      - name: run code
+        run: python3 main.py
