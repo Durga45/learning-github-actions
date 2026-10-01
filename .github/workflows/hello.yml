@@ -1,7 +1,7 @@
 name: learning github-actions-flow
 
 on:
-  workflow_call:
+  push:
 
 jobs:
   committing-code:
