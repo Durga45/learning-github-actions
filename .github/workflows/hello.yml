@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: getcode
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: run code
         run: python3 main.py
